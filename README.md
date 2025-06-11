@@ -11,7 +11,7 @@ A Flask web application that predicts house prices based on user input using a t
 ## Setup
 
 ```bash
-git clone https://github.com/your-username/house-price-predictor.git
+git clone https://github.com/sudarshan2611/price-predict.git
 cd house-price-predictor
 python -m venv venv
 venv\Scripts\activate          # Windows
