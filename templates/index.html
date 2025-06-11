@@ -1,0 +1,27 @@
+<!-- templates/index.html -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>House Price Predictor</title>
+</head>
+<body>
+    <h2>House Price Prediction</h2>
+    <form method="post" action="/predict">
+        <label>Median Income:</label>
+        <input type="number" name="income" step="any" required><br><br>
+
+        <label>Average Rooms:</label>
+        <input type="number" name="rooms" step="any" required><br><br>
+
+        <label>Average Occupancy:</label>
+        <input type="number" name="occupancy" step="any" required><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction %}
+        <h3>{{ prediction }}</h3>
+    {% endif %}
+</body>
+</html>
