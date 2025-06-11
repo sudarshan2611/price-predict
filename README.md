@@ -1,5 +1,5 @@
-# House Price Predictor
 
+<<<<<<< HEAD
 A Flask web application that predicts house prices based on user input using a trained Linear Regression model on California housing data.
 
 ## Features
@@ -11,11 +11,8 @@ A Flask web application that predicts house prices based on user input using a t
 ## Setup
 
 ```bash
-<<<<<<< HEAD
-git clone https://github.com/your-username/house-price-predictor.git
-=======
+```bash
 git clone https://github.com/sudarshan2611/price-predict.git
->>>>>>> 0c38c0326fd1b35dd42e6270822b2b5f89e64916
 cd house-price-predictor
 python -m venv venv
 venv\Scripts\activate          # Windows
@@ -23,3 +20,4 @@ venv\Scripts\activate          # Windows
 pip install -r requirements.txt
 python train_model.py
 python app.py
+
